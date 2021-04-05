@@ -17,7 +17,11 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
+.pages-container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -37,11 +41,24 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
 }
 
 .bloc-lg {
@@ -660,6 +677,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    text-align: center;
 }
 
 .hero-bloc-text-sub {
@@ -681,8 +699,9 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    text-align: center;
     margin: auto auto auto auto;
+    font-size: 17px;
 }
 
 .h1 {
@@ -699,10 +718,7 @@ p {
     font-weight: 700;
 }
 
-.social {
-    max-width: 400px;
-    margin: auto auto auto auto;
-}
+
 
 h2 {
     font-size: 22px;
@@ -717,7 +733,6 @@ h3 {
 }
 
 .med-width-whitespace {
-    max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
