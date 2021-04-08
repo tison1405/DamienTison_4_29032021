@@ -6,6 +6,12 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.citation{
+    font-size: 20px;
+}
+.realisation{
+    font-size: 20px;
+}
 
 a,
 button {
@@ -775,11 +781,11 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #97380C!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #97380C;
     color: #FFFFFF!important;
 }
 
